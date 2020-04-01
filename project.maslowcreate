@@ -12,17 +12,159 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.1234567901234568,
-                    "y": 0.2630272952853598,
+                    "x": 0.1008230452674897,
+                    "y": 0.2531017369727047,
                     "uniqueID": 417580,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 25
+                            "ioValue": 30
                         },
                         {
                             "name": "y length",
-                            "ioValue": 30
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.21742112482853224,
+                    "y": 0.2878411910669975,
+                    "uniqueID": 664379,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 15
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 12.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.3532235939643347,
+                    "y": 0.1339950372208437,
+                    "uniqueID": 540443,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 2
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.45884773662551437,
+                    "y": 0.17369727047146402,
+                    "uniqueID": 961347,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 11.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.31412894375857336,
+                    "y": 0.4689826302729529,
+                    "uniqueID": 953119,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.4279835390946502,
+                    "y": 0.5062034739454094,
+                    "uniqueID": 517624,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5377229080932785,
+                    "y": 0.41935483870967744,
+                    "uniqueID": 431311,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.20987654320987656,
+                    "y": 0.6600496277915632,
+                    "uniqueID": 348710,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.09396433470507544,
+                    "y": 0.7320099255583127,
+                    "uniqueID": 481395,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 2
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.31275720164609055,
+                    "y": 0.7518610421836228,
+                    "uniqueID": 415367,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 23
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -34,9 +176,80 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 417580,
+                    "ap2ID": 664379
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 664379,
+                    "ap2ID": 953119
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 540443,
+                    "ap2ID": 961347
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 961347,
+                    "ap2ID": 431311
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 953119,
+                    "ap2ID": 517624
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 517624,
+                    "ap2ID": 431311
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 348710,
+                    "ap2ID": 953119
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 348710,
+                    "ap2ID": 415367
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 481395,
+                    "ap2ID": 348710
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 415367,
+                    "ap2ID": 517624
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "3.4"
+    "circleSegmentSize": "1.6"
 }
