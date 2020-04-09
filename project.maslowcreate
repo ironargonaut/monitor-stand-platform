@@ -389,6 +389,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9728555917480998,
+                    "y": 0.4764267990074441,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.644718792866941,
@@ -410,17 +417,10 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9750271444082519,
-                    "y": 0.48635235732009924,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Scale",
                     "name": "Scale",
-                    "x": 0.7768729641693811,
-                    "y": 0.8213399503722084,
+                    "x": 0.7790445168295331,
+                    "y": 0.8114143920595533,
                     "uniqueID": 846037,
                     "ioValues": [
                         {
@@ -438,7 +438,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 2
+                            "ioValue": 20
                         }
                     ]
                 }
